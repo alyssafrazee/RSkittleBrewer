@@ -1,0 +1,5 @@
+Package: RSkittleBrewer
+Version: 1.0
+License: CC-0 (or most-lax license permitted for a package like this)
+Title: fun with R colors
+Description: for those times you want to make plots with candy-themed color schemes
