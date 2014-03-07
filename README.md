@@ -19,9 +19,10 @@ Call `RSkittleBrewer` on a flavor to get a vector of R color names that correspo
 original_colors = RSkittleBrewer('original')
 tropical_colors = RSkittleBrewer('tropical')
 wildberry_colors = RSkittleBrewer('wildberry')
+smarties_colors = RSkittleBrewer('smarties')
 mm_colors = RSkittleBrewer('M&M')
 ```
-In this project, M&M is a Skittle flavor. It's cool. 
+In this project, M&M is a Skittle flavor. It's cool. The British also wanted Smarties (thanks [Andy](https://github.com/AndySouth))!
 
 `plotSkittles()` makes a super awesome illustration of the color schemes. 
 
