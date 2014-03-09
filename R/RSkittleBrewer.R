@@ -24,13 +24,13 @@ function(flavor=c('original','tropical','wildberry','M&M','smarties'))
            wildberry= c("chartreuse3", "lightcoral", "dodgerblue3", "firebrick", "darkslateblue"),
            "M&M"=     c("salmon4", "red2", "dodgerblue3", "darkorange1", "green2", "yellow1"),
            smarties=  #http://en.wikipedia.org/wiki/File:Smarties_old_new.jpg
-                      c(pink=  rgb(255,150,200,max=255), #pink
-                        purple=rgb(120,60,140,max=255),  #purple
-                        blue=  rgb(80,110,190,max=255),  #blue
-                        green= rgb(100,170,0,max=255),    #green
-                        yellow=rgb(255,220,20,max=255),  #yellow
-                        orange=rgb(255,100,0,max=255),    #orange
-                        red=   rgb(220,0,0,max=255),     #red
-                        brown= rgb(100,20,20,max=255))   #brown
+                      c(pink=  rgb(255,150,200, maxColorValue=255),
+                        purple=rgb(120, 60,140, maxColorValue=255),
+                        blue=  rgb( 80,110,190, maxColorValue=255),
+                        green= rgb(100,170,  0, maxColorValue=255),
+                        yellow=rgb(255,220, 20, maxColorValue=255),
+                        orange=rgb(255,100,  0, maxColorValue=255),
+                        red=   rgb(220,  0,  0, maxColorValue=255),
+                        brown= rgb(100, 20, 20, maxColorValue=255))
            )
   }
