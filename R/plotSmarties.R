@@ -1,6 +1,16 @@
-plotSmarties <- function(){
-  
-  
+#' Plot the Smarties color palettes
+#'
+#' Plot illustrating the Smarties color palette
+#'
+#' @export
+#' @return None.
+#' 
+#' @examples
+#' plotSmarties()
+#' @seealso \code{\link{RSkittleBrewer}}, \code{\link{plotSkittles}}
+plotSmarties <-
+function()
+{
   nameFlavor <- 'smarties'
   flavor <- RSkittleBrewer(nameFlavor)
   
