@@ -1,39 +1,36 @@
-RSkittleBrewer = function(flavor){
+#  RSkittleBrewer
+#' Candy-based color palettes
+#'
+#' Vectors of colors corresponding to different candies.
+#'
+#' @param flavor Character string for candy-based color palette.
+#' 
+#' @export
+#' @return Vector of character strings representing the chosen set of colors.
+#'
+#' @examples
+#' plotSkittles()
+#' plotSmarties()
+#'
+#' @keywords hplot
+RSkittleBrewer <-
+function(flavor=c('original','tropical','wildberry','M&M','smarties'))
+{
+    flavor = match.arg(flavor)
 
-    flavor = match.arg(flavor, c('original','tropical','wildberry','M&M','smarties'))
-
-    if(flavor=="original"){
-        return(c('red3', 'purple4', 'darkorange1', 'green3', 'yellow1'))
-    }
-
-    if(flavor=="tropical"){
-        return(c('darkorange', 'dodgerblue', 'hotpink', 'limegreen', 'yellow'))   
-    }
-
-    if(flavor=="wildberry"){
-        return(c("chartreuse3", "lightcoral", "dodgerblue3", "firebrick", "darkslateblue"))
-    }
-
-    if(flavor=="M&M"){
-        return(c("salmon4", "red2", "dodgerblue3", "darkorange1", "green2", "yellow1"))
-    }
-    
-  if(flavor=="smarties"){
-    
-    #http://en.wikipedia.org/wiki/File:Smarties_old_new.jpg
-    smartCols <- (c(rgb(255,150,200,max=255), #pink
-             rgb(120,60,140,max=255),  #purple
-             rgb(80,110,190,max=255),  #blue
-             rgb(100,170,0,max=255),    #green
-             rgb(255,220,20,max=255),  #yellow
-             rgb(255,100,0,max=255),    #orange
-             rgb(220,0,0,max=255),     #red
-             rgb(100,20,20,max=255)))   #brown
-    
-    #naming allows selection by name 
-    names(smartCols) <- c('pink','purple','blue','green','yellow','orange','red','brown')
-    
-    return(smartCols)
-  }       
-    
-}
+    switch(flavor,
+           original=  c('red3', 'purple4', 'darkorange1', 'green3', 'yellow1'),
+           tropical=  c('darkorange', 'dodgerblue', 'hotpink', 'limegreen', 'yellow'),
+           wildberry= c("chartreuse3", "lightcoral", "dodgerblue3", "firebrick", "darkslateblue"),
+           "M&M"=     c("salmon4", "red2", "dodgerblue3", "darkorange1", "green2", "yellow1"),
+           smarties=  #http://en.wikipedia.org/wiki/File:Smarties_old_new.jpg
+                      c(pink=  rgb(255,150,200, maxColorValue=255),
+                        purple=rgb(120, 60,140, maxColorValue=255),
+                        blue=  rgb( 80,110,190, maxColorValue=255),
+                        green= rgb(100,170,  0, maxColorValue=255),
+                        yellow=rgb(255,220, 20, maxColorValue=255),
+                        orange=rgb(255,100,  0, maxColorValue=255),
+                        red=   rgb(220,  0,  0, maxColorValue=255),
+                        brown= rgb(100, 20, 20, maxColorValue=255))
+           )
+  }

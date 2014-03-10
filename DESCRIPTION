@@ -1,5 +1,8 @@
 Package: RSkittleBrewer
-Version: 1.0
-License: CC-0 (or most-lax license permitted for a package like this)
+Version: 1.01
+Author: Alyssa Frazee
+Maintainer: Alyssa Frazee <afrazee@jhsph.edu>
+License: MIT + file LICENSE
 Title: fun with R colors
 Description: for those times you want to make plots with candy-themed color schemes
+URL: https://github.com/alyssafrazee/RSkittleBrewer
