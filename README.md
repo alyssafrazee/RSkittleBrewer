@@ -24,7 +24,11 @@ mm_colors = RSkittleBrewer('M&M')
 ```
 In this project, M&M is a Skittle flavor. It's cool. The British also wanted Smarties (thanks [Andy](https://github.com/AndySouth))!
 
-`plotSkittles()` makes a super awesome illustration of the color schemes. 
+`plotSkittles()` and `plotSmarties()` make super awesome illustrations of the color schemes. 
 
 ### I must know more!
 Here's a [blog post](http://alyssafrazee.com/RSkittleBrewer.html) I wrote for you. 
+
+### who else should I thank?  
+* [Karl](https://github.com/kbroman), for helping make this into a legitimate package
+* [Jeff and Rafa](http://simplystatistics.org/), for inspiration
