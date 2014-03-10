@@ -11,7 +11,7 @@ devtools::install_github('RSkittleBrewer', 'alyssafrazee')
 ```
 
 ### use
-There are only two functions in this package. 
+There are only three functions in this package. 
 
 Call `RSkittleBrewer` on a flavor to get a vector of R color names that correspond to that Skittle flavor. 
 
