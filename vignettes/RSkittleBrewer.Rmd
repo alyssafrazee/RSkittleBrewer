@@ -1,0 +1,33 @@
+%\VignetteEngine{knitr::knitr}
+%\VignetteIndexEntry{Introduction to RSkittleBrewer}
+
+## The RSkittleBrewer package
+
+The RSkittleBrewer package contains three functions: `RSkittleBrewer`,
+`plotSkittles`, and `plotSmarties`.
+
+The `RSkittleBrewer` function returns a vector of character strings
+corresponding to the colors for a given candy-related color palette.
+
+```{r RSkittleBrewer}
+library(RSkittleBrewer)
+RSkittleBrewer("wildberry")
+```
+
+The `plotSkittles` function makes a plot to illustrate four of the
+five available palettes.
+
+```{r plotSkittles}
+plotSkittles()
+```
+
+The `plotSmarties` function makes a plot to illustrate the
+`"smarties"` palette.
+
+```{r plotSmarties}
+plotSmarties()
+```
+
+See [the related blog post](http://alyssafrazee.com/RSkittleBrewer.html) for
+further information about the package. The source is on
+[GitHub](https://github.com/alyssafrazee/RSkittleBrewer).
