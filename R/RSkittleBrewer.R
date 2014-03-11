@@ -12,6 +12,7 @@
 #' plotSkittles()
 #' plotSmarties()
 #'
+#' @seealso \code{\link{plotSkittles}}, \code{\link{plotSmarties}}
 #' @keywords hplot
 RSkittleBrewer <-
 function(flavor=c('original','tropical','wildberry','M&M','smarties'))
