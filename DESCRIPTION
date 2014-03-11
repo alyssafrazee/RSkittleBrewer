@@ -4,5 +4,6 @@ Author: Alyssa Frazee
 Maintainer: Alyssa Frazee <afrazee@jhsph.edu>
 License: MIT + file LICENSE
 Title: fun with R colors
+VignetteBuilder: knitr
 Description: for those times you want to make plots with candy-themed color schemes
 URL: https://github.com/alyssafrazee/RSkittleBrewer
