@@ -20,5 +20,8 @@ Vectors of colors corresponding to different candies.
 plotSkittles()
 plotSmarties()
 }
+\seealso{
+\code{\link{plotSkittles}}, \code{\link{plotSmarties}}
+}
 \keyword{hplot}
 
