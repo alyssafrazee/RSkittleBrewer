@@ -3,12 +3,12 @@ Version: 1.1
 Author: Alyssa Frazee
 Maintainer: Alyssa Frazee <afrazee@jhsph.edu>
 License: MIT + file LICENSE
-Title: fun with R colors
+Title: Fun with R Colors
 VignetteBuilder: knitr
 Imports: graphics, stats, grDevices
 Suggests:
     knitr
-Description: for those times you want to make plots with candy-themed color
-    schemes
+Description: For those times you want to make plots with candy-themed color
+    schemes.
 URL: https://github.com/alyssafrazee/RSkittleBrewer
 RoxygenNote: 5.0.1
