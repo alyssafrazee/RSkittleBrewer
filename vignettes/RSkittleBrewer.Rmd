@@ -1,7 +1,11 @@
-%\VignetteEngine{knitr::knitr}
-%\VignetteIndexEntry{Introduction to RSkittleBrewer}
-
-## The RSkittleBrewer package
+---
+title: The RSkittleBrewer package
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteIndexEntry{Introduction to RSkittleBrewer}
+  \usepackage[utf8](inputenc)
+---
 
 The RSkittleBrewer package contains three functions: `RSkittleBrewer`,
 `plotSkittles`, and `plotSmarties`.

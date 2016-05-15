@@ -7,7 +7,7 @@ Title: Fun with R Colors
 VignetteBuilder: knitr
 Imports: graphics, stats, grDevices
 Suggests:
-    knitr
+    knitr, rmarkdown,
 Description: For those times you want to make plots with candy-themed color
     schemes.
 URL: https://github.com/alyssafrazee/RSkittleBrewer
