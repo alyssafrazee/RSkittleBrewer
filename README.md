@@ -1,7 +1,7 @@
 Plot the ![Rainbow!](rainbow.png)
 =================
 
-If you want high-quality, scientifically-researched color schemes for your R plots, check out the [RColorBrewer package](http://cran.r-project.org/web/packages/RColorBrewer/index.html). If you want your plots to be colored the same way as packs of Skittles (or M&Ms), then this package (RSkittleBrewer) is the way to go. 
+If you want high-quality, scientifically-researched color schemes for your R plots, check out the [RColorBrewer package](https://cran.r-project.org/package=RColorBrewer). If you want your plots to be colored the same way as packs of Skittles (or M&Ms), then this package (RSkittleBrewer) is the way to go.
 
 ### install
 with `devtools`:
