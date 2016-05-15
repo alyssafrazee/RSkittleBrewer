@@ -3,6 +3,8 @@
 #' Plot illustrating the Smarties color palette
 #'
 #' @export
+#' @importFrom graphics plot points
+#' @importFrom stats runif
 #' @return None.
 #' 
 #' @examples

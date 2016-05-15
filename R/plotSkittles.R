@@ -3,6 +3,8 @@
 #' Plot illustrating the Skittles and M&M's color palettes
 #'
 #' @export
+#' @importFrom graphics par plot points
+#' @importFrom stats runif
 #' @return None.
 #' 
 #' @examples
