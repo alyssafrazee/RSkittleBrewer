@@ -6,6 +6,7 @@
 #' @param flavor Character string for candy-based color palette.
 #' 
 #' @export
+#' @importFrom grDevices rgb
 #' @return Vector of character strings representing the chosen set of colors.
 #'
 #' @examples
