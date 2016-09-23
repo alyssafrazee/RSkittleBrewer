@@ -7,7 +7,7 @@ If you want high-quality, scientifically-researched color schemes for your R plo
 with `devtools`:
 
 ```S
-devtools::install_github('RSkittleBrewer', 'alyssafrazee')
+devtools::install_github('alyssafrazee/RSkittleBrewer')
 ```
 
 ### use
