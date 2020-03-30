@@ -27,7 +27,7 @@ In this project, M&M is a Skittle flavor. It's cool. The British also wanted Sma
 `plotSkittles()` and `plotSmarties()` make super awesome illustrations of the color schemes. 
 
 ### I must know more!
-Here's a [blog post](http://alyssafrazee.com/RSkittleBrewer.html) I wrote for you. 
+Here's a [blog post](http://alyssafrazee.com/2014/03/06/RSkittleBrewer.html) I wrote for you. 
 
 ### who else should I thank?  
 * [Karl](https://github.com/kbroman), for helping make this into a legitimate package
